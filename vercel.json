@@ -5,5 +5,6 @@
       "runtime": "@vercel/python",
       "maxDuration": 10
     }
-  }
+  },
+  "root": "./"
 }
