@@ -1,16 +1,9 @@
 {
-    "version": 2,
-    "functions": {
-      "app.py": {
-        "runtime": "@vercel/python",
-        "maxDuration": 10
-      }
-    },
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/app.py"
-      }
-    ]
+  "version": 2,
+  "functions": {
+    "api/app.py": {
+      "runtime": "@vercel/python",
+      "maxDuration": 10
+    }
   }
-  
+}
