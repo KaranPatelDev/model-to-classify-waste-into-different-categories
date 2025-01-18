@@ -15,13 +15,8 @@
             </a>
         </td>
         <td style="padding: 10px;">
-            <a href="https://huggingface.co/spaces/amariayudha/RealWaste_Prediction_Deep_Learning">
-                <img src="https://img.shields.io/badge/Demo-Hugging%20Face-blue" alt="Hugging Face Demo">
-            </a>
-        </td>
-        <td style="padding: 10px;">
-            <a href="https://drive.google.com/drive/folders/174TT5ANFTS3_uztj8z8GCFGldxJErAId?usp=sharing">
-                <img src="https://img.shields.io/badge/Model-Google%20Drive-green" alt="Model">
+            <a href="[https://huggingface.co/spaces/amariayudha/RealWaste_Prediction_Deep_Learning](https://kpd-model-to-classify-waste-into-different-categories.streamlit.app/)">
+                <img src="https://img.shields.io/badge/Demo-Hugging%20Face-blue" alt="Streamlit Demo">
             </a>
         </td>
     </tr>
@@ -38,25 +33,6 @@ Develop a deep learning-based waste classification system using a CNN that can a
 ### 📊 Dataset
 
 We utilize the [RealWaste dataset](https://archive.ics.uci.edu/dataset/908/realwaste), which contains images of waste items across 9 major material types, collected within an authentic landfill environment.
-
-## 🗒️ Table of Contents
-
-- [Waste Categories](#-waste-categories)
-- [Features](#-features)
-- [Technologies Used](#-technologies-used)
-- [Installation & Usage](#-installation--usage)
-- [The Brain Behind the Magic: InceptionV3](#-the-brain-behind-the-magic-inceptionv3)
-- [Model Performance](#-model-performance)
-- [Live Demo](#-live-demo)
-- [Deployment](#-deployment)
-- [Future Improvements](#-future-improvements)
-- [Real-World Applications](#-real-world-applications)
-- [Environmental Impact](#-environmental-impact)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-- [Acknowledgements](#-acknowledgements)
 
 ## 🗑️ Waste Categories
 
@@ -126,8 +102,6 @@ InceptionV3 is approximately **48 layers** deep and is composed of various build
 - **Dropouts**
 - **Fully Connected Layers**
 
-![InceptionV3 Architecture](images/inceptionv3_architecture.png)
-*Diagram of the InceptionV3 architecture.*
 
 ### 🔍 Inception Modules
 
@@ -181,23 +155,15 @@ The current model achieves an accuracy of **82%** on the test set. Below are det
 
 ### 📉 Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix.png)
 *Confusion matrix illustrating the model's performance across different categories.*
 
 ### 📈 Learning Curve
 
-![Model Learning Curve](images/performance.jpg)
 *Learning curve showing the model's training and validation performance over epochs.*
 
 This plot provides insights into how the model's performance improved during the training process, helping to understand its learning dynamics and potential areas for optimization.
 
-## 🎥 Live Demo
-
-Our interactive demo is divided into three main sections, each serving a unique purpose in showcasing the waste classification system:
-
 ### 1. 🏠 Homepage
-
-![Homepage Demo](images/homepage.gif)
 
 The homepage provides an overview of the project, including:
 
@@ -208,8 +174,6 @@ The homepage provides an overview of the project, including:
 
 ### 2. 📊 Exploratory Data Analysis (EDA)
 
-![EDA Demo](images/eda.gif)
-
 The EDA section offers insights into our dataset:
 
 - Distribution of waste categories
@@ -218,8 +182,6 @@ The EDA section offers insights into our dataset:
 - Key statistics about the dataset
 
 ### 3. 🔮 Prediction
-
-![Prediction Demo](images/prediction.gif)
 
 The prediction section allows users to interact with our model:
 
@@ -232,7 +194,7 @@ Check out our waste classification model in action! This demo shows how easy it 
 
 ## 🌐 Deployment
 
-The project is deployed on Hugging Face Spaces. You can access it [here](https://huggingface.co/spaces/amariayudha/RealWaste_Prediction_Deep_Learning).
+The project is deployed on Streamlit : https://kpd-model-to-classify-waste-into-different-categories.streamlit.app/
 
 ## 🔮 Future Improvements
 
@@ -262,39 +224,6 @@ By improving waste classification accuracy, this project aims to:
 - **Lower Landfill Waste**: Reduces the amount of waste sent to landfills, decreasing greenhouse gas emissions.
 - **Promote Circular Economy**: Encourages the reuse and recycling of materials, supporting sustainable resource management.
 
-## 📁 Project Structure
-
-```
-real-waste-classification-cnn/
-│
-├── deployment/
-│   ├── visualization/       # Visualization scripts and assets
-│   ├── app.py               # Main Streamlit application
-│   ├── eda.py               # Exploratory Data Analysis script
-│   ├── prediction.py        # Prediction functionality
-│   └── requirements.txt     # Deployment requirements
-│
-├── images/                  # Images used in README and documentation
-│   ├── performance.jpg
-│   ├── inceptionv3_architecture.png
-│   ├── confusion_matrix.png
-│   └── ...                  # Other images and diagrams
-│
-├── model/                   # Directory for the trained model
-│   └── inceptionv3_model.h5
-│
-├── notebooks/
-│   ├── realwaste-image-classification.ipynb         # Notebook for model training and analysis
-│   └── realwaste-image-classification-inference.ipynb  # Notebook for model inference and testing
-│
-├── data/                    # Dataset files (if applicable)
-│   └── ...                  
-│
-├── LICENSE                  # License file
-├── README.md                # Project README
-└── url.txt                  # Contains links to dataset, deployment, and model
-```
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -323,11 +252,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Ayudha Amari Hirtranusi**
+**Karan Patel**
 
-- 🌐 **GitHub**: [github.com/ayudhaamari](https://github.com/ayudhaamari)
-- 💼 **LinkedIn**: [linkedin.com/in/ayudhaamari/](https://www.linkedin.com/in/ayudhaamari/)
-- 📧 **Email**: amariayudha@gmail.com
+- 🌐 **GitHub**: [github.com/ayudhaamari](https://github.com/KaranPatelDev)
+- 💼 **LinkedIn**: [linkedin.com/in/karan-patel-16700a215/]([https://www.linkedin.com/in/ayudhaamari/](https://www.linkedin.com/in/karan-patel-16700a215/))
 
 ## 🙏 Acknowledgements
 
@@ -339,6 +267,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐️ If you find this project useful, please consider giving it a star!
-
-> [!NOTE]
-> For comprehensive explanations and code implementations, please refer to the [`realwaste-image-classification.ipynb`](/realwaste-image-classification.ipynb) notebook. It provides step-by-step instructions and insights that complement this README.
