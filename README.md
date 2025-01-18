@@ -2,7 +2,7 @@
 
 ## 🌟 Project Overview
 
-This project focuses on developing a Convolutional Neural Network (CNN) model for classifying waste images into nine distinct material types. By automating the waste sorting process, we aim to enhance recycling efficiency and contribute to environmental sustainability.
+This project focuses on developing a Convolutional Neural Network (CNN) model for classifying waste images into nine distinct material types. By automating the waste sorting process, I aim to enhance recycling efficiency and contribute to environmental sustainability.
 
 ### 🎯 Objective
 
@@ -10,7 +10,7 @@ Develop a deep learning-based waste classification system using a CNN that can a
 
 ### 📊 Dataset
 
-We utilize the [RealWaste dataset](https://archive.ics.uci.edu/dataset/908/realwaste), which contains images of waste items across 9 major material types, collected within an authentic landfill environment.
+I utilize the [RealWaste dataset](https://archive.ics.uci.edu/dataset/908/realwaste), which contains images of waste items across 9 major material types, collected within an authentic landfill environment.
 
 ## 🗑️ Waste Categories
 
@@ -28,7 +28,7 @@ We utilize the [RealWaste dataset](https://archive.ics.uci.edu/dataset/908/realw
 
 - 📊 **Exploratory Data Analysis (EDA)**: Visualizes dataset distribution and sample images.
 - 🔮 **Prediction**: Classifies waste images using the trained CNN model.
-- 🖥️ **Interactive Web Interface**: Built with Streamlit for easy use and deployment.
+- 🖥️ **Interactive Ib Interface**: Built with Streamlit for easy use and deployment.
 - 📈 **Performance Metrics**: Provides detailed model evaluation including accuracy, precision, recall, F1-score, and confusion matrix.
 - 🔄 **Data Augmentation**: Employs techniques to increase dataset diversity and model robustness.
 
@@ -60,12 +60,12 @@ We utilize the [RealWaste dataset](https://archive.ics.uci.edu/dataset/908/realw
    ```bash
    streamlit run deployment/app.py
    ```
-5. **Access the web application:**
+5. **Access the Ib application:**
    - Open your browser and navigate to `http://localhost:8501`.
 
 ## 🧠 The Brain Behind the Magic: InceptionV3
 
-This project leverages the powerful **InceptionV3** architecture, a state-of-the-art convolutional neural network designed for both efficiency and performance.
+This project leverages the poIrful **InceptionV3** architecture, a state-of-the-art convolutional neural network designed for both efficiency and performance.
 
 ### 🏗️ Architecture Overview
 
@@ -85,7 +85,7 @@ InceptionV3 is approximately **48 layers** deep and is composed of various build
 ### 🏋️ Efficient Computing
 
 - **Factorized Convolutions**: Breaks down larger convolutions into smaller, more efficient operations (e.g., a 5x5 convolution into two 3x3 convolutions).
-- **Asymmetric Convolutions**: Uses combinations like 1x7 followed by 7x1 convolutions to replace a single 7x7 convolution, further reducing computation.
+- **Asymmetric Convolutions**: Uses combinations like 1x7 folloId by 7x1 convolutions to replace a single 7x7 convolution, further reducing computation.
 
 ### 🌐 Auxiliary Classifiers
 
@@ -94,8 +94,8 @@ InceptionV3 is approximately **48 layers** deep and is composed of various build
 
 ### 📊 Parameters
 
-- **Manageable Size**: Approximately **23.9 million parameters**, striking a balance between complexity and computational efficiency.
-- **Fine-Tuning**: We fine-tuned the pre-trained InceptionV3 model on our waste classification dataset to enhance performance.
+- **Manageable Size**: Approximately **23.9 million parameters**, striking a balance betIen complexity and computational efficiency.
+- **Fine-Tuning**: I fine-tuned the pre-trained InceptionV3 model on our waste classification dataset to enhance performance.
 
 ### 🔧 Customization for Waste Classification
 
@@ -195,12 +195,12 @@ By improving waste classification accuracy, this project aims to:
 
 - **Increase Recycling Rates**: Proper sorting leads to more materials being recycled.
 - **Reduce Contamination**: Minimizes contamination in recycling streams, improving the quality of recycled materials.
-- **Lower Landfill Waste**: Reduces the amount of waste sent to landfills, decreasing greenhouse gas emissions.
+- **LoIr Landfill Waste**: Reduces the amount of waste sent to landfills, decreasing greenhouse gas emissions.
 - **Promote Circular Economy**: Encourages the reuse and recycling of materials, supporting sustainable resource management.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are Ilcome! Please follow these steps:
 
 1. **Fork the repository** on GitHub.
 2. **Clone your fork** locally:
@@ -234,8 +234,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgements
 
 - [RealWaste Dataset](https://archive.ics.uci.edu/dataset/908/realwaste) creators
-- [Streamlit](https://streamlit.io/) for the amazing web app framework
-- [TensorFlow](https://www.tensorflow.org/) team for the powerful deep learning library
+- [Streamlit](https://streamlit.io/) for the amazing Ib app framework
+- [TensorFlow](https://www.tensorflow.org/) team for the poIrful deep learning library
 - [Keras Applications](https://keras.io/api/applications/) for providing pre-trained models
 
 ---
