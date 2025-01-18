@@ -6,7 +6,6 @@
     <tr>
         <th style="padding: 10px;">Dataset</th>
         <th style="padding: 10px;">Deployment</th>
-        <th style="padding: 10px;">Model</th>
     </tr>
     <tr>
         <td style="padding: 10px;">
@@ -63,7 +62,6 @@ We utilize the [RealWaste dataset](https://archive.ics.uci.edu/dataset/908/realw
 - ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=Plotly&logoColor=white) Plotly
 - ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=flat-square&logo=Python&logoColor=white) Matplotlib
 - ![Seaborn](https://img.shields.io/badge/-Seaborn-3776AB?style=flat-square&logo=Python&logoColor=white) Seaborn
-- ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=OpenCV&logoColor=white) OpenCV
 
 ## 🖥️ Installation & Usage
 
