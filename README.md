@@ -228,7 +228,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Karan Patel**
 
-- 🌐 **GitHub**: [github.com/ayudhaamari](https://github.com/KaranPatelDev)
+- 🌐 **GitHub**: [github.com/KaranPatelDev](https://github.com/KaranPatelDev)
 - 💼 **LinkedIn**: [linkedin.com/in/karan-patel-16700a215/]([https://www.linkedin.com/in/ayudhaamari/](https://www.linkedin.com/in/karan-patel-16700a215/))
 
 ## 🙏 Acknowledgements
