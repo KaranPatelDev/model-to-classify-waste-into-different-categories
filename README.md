@@ -1,24 +1,5 @@
 # 🗑️ Real Waste Classification CNN
 
-<table style="width: 100%; text-align: center; border-collapse: collapse;">
-    <tr>
-        <th style="padding: 10px;">Dataset</th>
-        <th style="padding: 10px;">Deployment</th>
-    </tr>
-    <tr>
-        <td style="padding: 10px;">
-            <a href="https://archive.ics.uci.edu/dataset/908/realwaste">
-                <img src="https://img.shields.io/badge/Dataset-RealWaste-orange" alt="Dataset">
-            </a>
-        </td>
-        <td style="padding: 10px;">
-            <a href="[https://huggingface.co/spaces/amariayudha/RealWaste_Prediction_Deep_Learning](https://kpd-model-to-classify-waste-into-different-categories.streamlit.app/)">
-                <img src="https://img.shields.io/badge/Demo-Hugging%20Face-blue" alt="Streamlit Demo">
-            </a>
-        </td>
-    </tr>
-</table>
-
 ## 🌟 Project Overview
 
 This project focuses on developing a Convolutional Neural Network (CNN) model for classifying waste images into nine distinct material types. By automating the waste sorting process, we aim to enhance recycling efficiency and contribute to environmental sustainability.
