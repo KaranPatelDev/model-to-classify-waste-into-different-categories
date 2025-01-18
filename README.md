@@ -46,24 +46,21 @@ We utilize the [RealWaste dataset](https://archive.ics.uci.edu/dataset/908/realw
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/real-waste-classification-cnn.git
+   git clone https://github.com/yourusername/model-to-classify-waste-into-different-categories.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd real-waste-classification-cnn
+   cd model-to-classify-waste-into-different-categories
    ```
 3. **Install required packages:**
    ```bash
    pip install -r deployment/requirements.txt
    ```
-4. **Download the pre-trained model:**
-   - Download the model from [Google Drive](https://drive.google.com/drive/folders/174TT5ANFTS3_uztj8z8GCFGldxJErAId?usp=sharing).
-   - Place the downloaded model file into the `model/` directory.
-5. **Run the Streamlit app:**
+4. **Run the Streamlit app:**
    ```bash
    streamlit run deployment/app.py
    ```
-6. **Access the web application:**
+5. **Access the web application:**
    - Open your browser and navigate to `http://localhost:8501`.
 
 ## 🧠 The Brain Behind the Magic: InceptionV3
@@ -208,7 +205,7 @@ Contributions are welcome! Please follow these steps:
 1. **Fork the repository** on GitHub.
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/yourusername/real-waste-classification-cnn.git
+   git clone https://github.com/yourusername/model-to-classify-waste-into-different-categories.git
    ```
 3. **Create a new branch** for your feature or bugfix:
    ```bash
