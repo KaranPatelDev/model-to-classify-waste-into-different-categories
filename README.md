@@ -10,7 +10,7 @@ Develop a deep learning-based waste classification system using a CNN that can a
 
 ### 📊 Dataset
 
-I utilize the [RealWaste dataset](https://archive.ics.uci.edu/dataset/908/realwaste), which contains images of waste items across 9 major material types, collected within an authentic landfill environment.
+I utilized the [RealWaste dataset](https://archive.ics.uci.edu/dataset/908/realwaste), which contains images of waste items across 9 major material types, collected within an authentic landfill environment.
 
 ## 🗑️ Waste Categories
 
