@@ -1,7 +1,5 @@
 # 🗑️ Real Waste Classification CNN
 
-![Waste Classification](https://assets-a1.kompasiana.com/items/album/2021/03/14/dr-stone-fandomcom-1536x864-604dff978ede483a3b589c96.png?t=o&v=780)
-
 <table style="width: 100%; text-align: center; border-collapse: collapse;">
     <tr>
         <th style="padding: 10px;">Dataset</th>
